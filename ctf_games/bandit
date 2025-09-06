@@ -1,0 +1,33 @@
+ssh banditx@bandit.labs.overthewire.org -p 2220
+
+level1- 
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+level2
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+level3
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+level4
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+level5
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+level6
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+shell command: find . -type f -size 1033c ! -perm /u=x,g=x,o=x -print0 | xargs -0 file | grep " text"
+
+level7
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+find . -user bandit7 -group bandit6 -size 33c
+
+level8
+
+
+
+openvas
+[*] User created with password 'c16984bc-f77a-4711-ada3-4161bdc0aca5'.
+
+
