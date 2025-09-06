@@ -31,3 +31,32 @@ openvas
 [*] User created with password 'c16984bc-f77a-4711-ada3-4161bdc0aca5'.
 
 
+
+File at ./data.txt
+cat ./data.txt | sort | uniq -u
+
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+Level 10
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+strings ./data.txt |grep =*
+
+Level 11
+
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+base64 -d data.txt
+
+Level 12
+
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+Level 13
+
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+Repeatedly use file and compress of different types. Whenever tar ball appears use xfz flag to decode. Use file after each step
+
+
